@@ -1,0 +1,23 @@
+@relation 'CrickersData-weka.filters.unsupervised.attribute.NumericToBinary-R3-weka.filters.unsupervised.attribute.Add-TNOM-NCOLOR-Lred,green,blue-Clast-weka.filters.unsupervised.attribute.AddExpression-Ea5/a4-NAVERAGE'
+
+@attribute ID numeric
+@attribute NAME string
+@attribute AGE_binarized {0,1}
+@attribute MATCHES numeric
+@attribute RUNS numeric
+@attribute COLOR {red,green,blue}
+@attribute AVERAGE numeric
+
+@data
+121,Sachin,1,420,20002,red,47.62381
+122,Sehwag,1,220,9006,?,40.936364
+123,Dhoni,1,158,6789,green,42.968354
+124,Dravid,?,369,9807,blue,26.577236
+125,Anil,1,401,2564,?,6.394015
+126,Kapil,1,?,9097,red,?
+127,Sunil,1,?,8097,red,?
+128,Kohli,?,98,3465,blue,35.357143
+129,Sanjay,1,105,4531,?,43.152381
+130,Keerthi,1,32,2003,red,62.59375
+131,Prasad,1,?,2500,?,?
+132,Srinath,1,380,2234,red,5.878947

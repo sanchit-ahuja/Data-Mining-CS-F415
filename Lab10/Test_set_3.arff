@@ -1,0 +1,88 @@
+@relation cars-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.instance.Resample-S1-Z30.0-no-replacement
+
+@attribute buying {vhigh,high,med,low}
+@attribute maint {vhigh,high,med,low}
+@attribute doors {2,3,4,5more}
+@attribute persons {2,4,more}
+@attribute lug_boot {small,med,big}
+@attribute safety {low,med,high}
+@attribute class {unacc,acc,good,vgood}
+
+@data
+vhigh,med,5more,more,small,high,acc
+high,high,4,more,small,high,acc
+vhigh,low,2,4,small,med,unacc
+low,med,5more,4,small,low,unacc
+low,med,5more,2,small,low,unacc
+low,low,4,4,small,high,good
+high,vhigh,5more,4,small,high,unacc
+low,low,4,4,med,med,good
+med,med,4,2,small,med,unacc
+vhigh,med,4,more,med,low,unacc
+med,vhigh,4,4,med,high,acc
+low,med,4,more,med,low,unacc
+med,med,3,more,med,med,acc
+low,low,5more,more,big,high,vgood
+med,low,2,4,small,low,unacc
+med,med,4,2,med,low,unacc
+low,high,2,4,med,high,acc
+high,low,5more,more,small,low,unacc
+low,low,4,4,big,low,unacc
+vhigh,med,5more,4,small,med,unacc
+vhigh,high,3,more,small,low,unacc
+vhigh,high,3,4,big,low,unacc
+vhigh,med,5more,4,small,high,acc
+vhigh,low,3,4,small,low,unacc
+vhigh,low,5more,4,small,low,unacc
+med,vhigh,5more,2,med,low,unacc
+low,med,5more,4,small,high,good
+high,vhigh,5more,2,big,high,unacc
+vhigh,low,3,2,big,low,unacc
+med,vhigh,4,more,med,high,acc
+vhigh,low,5more,4,med,med,acc
+low,med,2,more,small,med,unacc
+low,med,5more,4,small,med,acc
+vhigh,high,3,2,med,high,unacc
+low,low,2,2,big,low,unacc
+med,vhigh,4,more,big,med,acc
+med,vhigh,4,4,small,med,unacc
+med,med,4,4,small,med,acc
+high,low,4,more,med,low,unacc
+high,high,4,more,small,med,unacc
+med,high,2,4,big,low,unacc
+med,high,2,2,med,high,unacc
+low,med,5more,4,big,low,unacc
+high,vhigh,5more,4,small,low,unacc
+vhigh,low,4,4,small,med,unacc
+low,med,4,more,med,high,vgood
+high,low,4,more,med,high,acc
+vhigh,low,5more,4,med,high,acc
+med,high,2,2,big,low,unacc
+low,med,4,more,big,high,vgood
+med,med,3,more,big,low,unacc
+high,high,4,more,med,med,acc
+vhigh,high,3,4,med,high,unacc
+med,med,4,4,med,med,acc
+vhigh,med,5more,more,big,high,acc
+med,vhigh,4,more,med,low,unacc
+vhigh,low,3,2,med,high,unacc
+vhigh,low,2,more,small,high,unacc
+vhigh,low,3,4,med,high,acc
+low,med,4,more,big,med,good
+vhigh,med,5more,more,big,low,unacc
+low,med,5more,2,big,high,unacc
+med,med,4,4,med,high,vgood
+high,vhigh,5more,4,small,med,unacc
+vhigh,low,5more,4,small,med,unacc
+vhigh,med,5more,4,med,low,unacc
+high,low,5more,4,big,high,acc
+med,vhigh,4,4,big,high,acc
+vhigh,low,4,2,big,high,unacc
+high,low,4,more,small,med,unacc
+vhigh,low,2,more,big,high,acc
+vhigh,low,4,4,small,high,acc
+med,low,2,4,small,med,acc
+vhigh,vhigh,2,2,big,med,unacc
+high,low,4,more,big,med,acc
+vhigh,med,4,more,med,med,acc
+med,vhigh,4,4,med,low,unacc

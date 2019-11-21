@@ -1,0 +1,30 @@
+@relation 'weather-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.Discretize-B2-M-1.0-R2,3-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NumericToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NumericToBinary-Rfirst-last'
+
+@attribute outlook=sunny_binarized {0,1}
+@attribute outlook=overcast_binarized {0,1}
+@attribute outlook=rainy_binarized {0,1}
+@attribute 'temperature=\'(74.5-inf)\'_binarized' {0,1}
+@attribute 'humidity=\'(80.5-inf)\'_binarized' {0,1}
+@attribute windy=FALSE_binarized {0,1}
+@attribute play=no_binarized {0,1}
+
+@data
+1,0,0,1,1,1,1
+1,0,0,1,1,0,1
+0,1,0,1,1,1,0
+0,0,1,0,1,1,0
+0,0,1,0,0,1,0
+0,0,1,0,0,0,1
+0,1,0,0,0,0,0
+1,0,0,0,1,1,1
+0,0,1,0,0,1,0
+0,0,1,1,0,1,0
+1,0,0,1,0,0,0
+0,1,0,0,1,0,0
+0,1,0,1,0,1,0
+0,0,1,0,1,0,1
+0,0,1,0,1,1,0
+0,0,1,0,1,1,0
+0,0,1,0,0,0,1
+0,1,0,0,0,1,0
+1,0,0,0,1,1,1
